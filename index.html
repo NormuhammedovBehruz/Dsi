@@ -6,58 +6,77 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DSI</title>
+    <!--Font family-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
-    <!-- <img src="images/Group 1317.svg" alt="group" width="119px" height="56px"/> -->
+
 <body>
-    <header>
-        <!-- NAV -->
-        <nav>
-            <ul>
-                <li>
-                    <a href="">Services</a>
-                </li>
-                <li>
-                    <a href="">Product</a>
-                </li>
-                <li>
-                    <a href="">Technology</a>
-                </li>
-                <li>
-                    <a href="">About</a>
-                </li>
-                <li>
-                    <a href="">Client</a>
-                </li>
-                <li>
-                    <a href="">Partner</a>
-                </li>
-            </ul>
-        </nav>
-        <div>
-        <img src="images/Union.svg" alt="union" width="20px" height="18,59"/>
-        <img src="images/mail.svg" alt="mail" width="20px" height="16px"/>
-        <img src="images/shuffle.svg" alt="shuffle" width="16px" height="16px"/>
+    <!--Header-->
+    <header class="main-header">
+        <div class="main-header-container container">
+            <a class="site-logo" href="№"><img class="site-logo-img" src="images/group.svg" alt="group" width="119px"
+                    height="56px" /></a>
+            <!-- Navbar -->
+            <nav class="sitenav">
+                <ul class="sitenav-list">
+                    <li class="sitenav-item">
+                        <a class="sitenav-link" href="№">Services</a>
+                    </li>
+                    <li class="sitenav-item">
+                        <a class="sitenav-link" href="№">Product</a>
+                    </li>
+                    <li class="sitenav-item">
+                        <a class="sitenav-link" href="№">Technology</a>
+                    </li>
+                    <li class="sitenav-item">
+                        <a class="sitenav-link" href="№">About</a>
+                    </li>
+                    <li class="sitenav-item">
+                        <a class="sitenav-link" href="№">Client</a>
+                    </li>
+                    <li class="sitenav-item">
+                        <a class="sitenav-link" href="№">Partner</a>
+                    </li>
+                </ul>
+            </nav>
+            <!--Nav icons-->
+            <div class="nav-icons">
+                <ul class="navicons-list">
+                    <li class="navicons-item">
+                        <img class="navicons-img" src="images/Union.svg" alt="union" width="20px" height="18,59" />
+                        <img class="navicons-img" src="images/mail.svg" alt="mail" width="20px" height="16px" />
+                        <img class="navicons-img" src="images/shuffle.svg" alt="shuffle" width="16px" height="16px" />
+                    </li>
+                </ul>
+            </div>
         </div>
     </header>
 
-    <main>
-        <section>
-            <div>
-                <h1>Making the most of the</h1>
-                <h1>ever-growing</h1>
-                <h2>Information Technology</h2>
-                <p>
-                    Managed by a team of professional experts with extensive experience
-                    and impressive track records
-                </p>
-                <a href="">Read More</a>
-                <img src="images/pana1.svg" alt="pana1" width="562,97" height="381,61">
+    <main class="main-content">
+        <section class="hero">
+            <div class="hero-container  container">
+                <div class="hero-content">
+                    <h1 class="hero-header">Making the most of the ever-growin
+                        <span class="hero-content-highlite">Information Technology</span>
+                    </h1>
+                    <p class="hero-text">
+                        Managed by a team of professional experts with extensive experience
+                        and impressive track records
+                    </p>
+                    <a class="main-button" href="#">Read More</a>
+                </div>
+                <img class="hero-img" src="images/pana1.svg" alt="pana1" width="563" height="382">
             </div>
         </section>
 
-        <section>
+        <!-- <section>
             <div>
-                <img src="images/pana2.svg" alt="pana2" width="452,94" height="472"/>
+                <img src="images/pana2.svg" alt="pana2" width="452,94" height="472" />
                 <h2>Welcome to Dwidasa Samsara Indonesia (DSI)</h2>
                 <p>
                     Dwidasa Samsara Indonesia (DSI) was firstly established in 2010 by
@@ -74,13 +93,13 @@
                     and efficiently.
                 </p>
             </div>
-        </section>
+        </section> -->
 
-        <section>
+        <!-- <section>
             <h1>Product and Service</h1>
             <div>
                 <h3>Our Product</h3>
-                <img src="images/product-description 1 (1).svg" alt="product" width="100px" height="100px"/>
+                <img src="images/product-description 1 (1).svg" alt="product" width="100px" height="100px" />
                 <p>
                     Our product is made on the base of our team’s careful research and
                     analyses, ranging from internet based application.
@@ -90,7 +109,7 @@
 
             <div>
                 <h3>Our Service</h3>
-                <img src="images/verified 1.svg" alt="varified" width="100px" height="100px"/>
+                <img src="images/verified 1.svg" alt="varified" width="100px" height="100px" />
                 <p>
                     DSI’s shared service solutions focus on the front-end based software
                     development, designed specifically for the banking and financial
@@ -101,7 +120,7 @@
 
             <div>
                 <h3>Our Technology</h3>
-                <img src="images/cogwheel 1.svg" alt="cogwheel" width="100px" height="100px"/>
+                <img src="images/cogwheel 1.svg" alt="cogwheel" width="100px" height="100px" />
                 <p>
                     First JAVA, runs on more than 850 million personal computers
                     worldwide, and on billions of devices worldwide, including mobile
@@ -109,10 +128,9 @@
                 </p>
                 <a href="">Read More</a>
             </div>
-        </section>
+        </section> -->
     </main>
-
-    <footer>
+    <!-- <footer>
         <section>
             <h2>PT Dwidasa Samsara Indones</h2>
             <ul>
@@ -136,7 +154,7 @@
                 </li>
             </ul>
         </section>
-    </footer>
+    </footer> -->
 </body>
 
 </html>
