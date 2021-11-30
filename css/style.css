@@ -34,9 +34,7 @@ body {
     width: 119px;
     height: 56px;
 }
-.sitenav {
 
-}
 .sitenav-list {
     list-style: none;
     padding: 0;
@@ -50,20 +48,12 @@ body {
     text-decoration: none;
     color: #1f2e35;
 }
-.nav-icons {
 
-}
 .navicons-list {
     list-style: none;
     padding: 0;
     margin: 0;
     display: flex;
-}
-.navicons-item {
-
-}
-.navicons-img {
-
 }
 
 .hero {
@@ -99,7 +89,4 @@ body {
     background-color: #ee4248;
     color: #fff;
     border-radius: 4px;
-}
-
-.hero-img {
 }
