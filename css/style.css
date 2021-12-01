@@ -1,93 +1,206 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+* {
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    font-family: 'roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: "roboto", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  color: #30444e;
 }
 
 .container {
-    width: 100%;
-    max-width: 1160px;
-    margin-right: auto;
-    margin-left: auto;
-    padding-left: 30px;
-    padding-right: 30px;
+  width: 100%;
+  max-width: 1160px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 /* Header */
 
 .main-header {
-    padding-top: 22px;
-    padding-bottom: 22px;
+  padding-top: 22px;
+  padding-bottom: 22px;
 }
 
 .main-header-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .site-logo-img {
-    width: 119px;
-    height: 56px;
+  width: 119px;
+  height: 56px;
 }
 
 .sitenav-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
 }
 .sitenav-item:not(:last-child) {
-    margin-right: 50px;
+  margin-right: 50px;
 }
 .sitenav-link {
-    text-decoration: none;
-    color: #1f2e35;
+  text-decoration: none;
+  color: #1f2e35;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.sitenav-link:hover {
+  opacity: 0.8;
+  color: #ee4248;
+}
+
+.sitenav-link:active {
+  opacity: 0.6;
+  color: #ee4248;
 }
 
 .navicons-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
 }
 
 .heroo {
-     background-color: #f6f6f6;
+  background-color: #f6f6f6;
+  margin: 189px;
+}
+
+.hero-img {
+  margin-right: 91px;
 }
 
 .hero-container {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .hero-content {
-
 }
 
 .hero-header {
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 64px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
 }
 .hero-content-highlite {
-    color: #ee4248;
+  color: #ee4248;
 }
 
 .hero-text {
-    font-size: 20px;
-    line-height: 28px;
+  font-size: 20px;
+  line-height: 28px;
 }
 
 .main-button {
-    padding: 12px 32px;
-    text-decoration: none;
-    background-color: #ee4248;
-    color: #fff;
-    border-radius: 4px;
+  padding: 12px 32px;
+  text-decoration: none;
+  background-color: #ee4248;
+  color: #fff;
+  border-radius: 4px;
 }
 
+.service {
+  margin: 0;
+}
+
+.frame {
+  display: flex;
+  list-style: none;
+}
+
+.product {
+  padding-right: 53px;
+  margin-bottom: 17px;
+}
+
+.our-product {
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.our-text {
+  margin-bottom: 15px;
+}
+
+.produc {
+  padding-right: 43px;
+  margin-bottom: 21px;
+}
+
+.our-produc {
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.our-textt {
+  margin-bottom: 15px;
+}
+
+.produt {
+  margin-bottom: 21px;
+}
+
+.our-produt {
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.our-texxt {
+  margin-bottom: 15px;
+}
+
+.ruko {
+  margin-bottom: 88px;
+}
+
+.samara {
+  margin: 0;
+}
+
+.framee {
+  display: flex;
+  list-style: none;
+}
+
+.our {
+  margin: 138px;
+}
+
+.footer {
+  padding-right: 47px;
+}
+
+.foter {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.samara {
+  margin-bottom: 8px;
+}
+
+.ruko {
+  width: 317px;
+  height: 54px;
+}
+
+.rukoo {
+  margin: 0;
+  width: 269px;
+  height: 81px;
+}
