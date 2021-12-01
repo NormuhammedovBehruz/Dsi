@@ -56,8 +56,8 @@ body {
     display: flex;
 }
 
-.hero {
-    background-color: #f6f6f6;
+.heroo {
+     background-color: #f6f6f6;
 }
 
 .hero-container {
@@ -90,3 +90,4 @@ body {
     color: #fff;
     border-radius: 4px;
 }
+
