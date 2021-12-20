@@ -2,10 +2,13 @@
   box-sizing: border-box;
 }
 
-* {
+html {
+  height: 100%;
 }
 
 body {
+  display: flex;
+  flex-direction: column;
   margin: 0;
   padding: 0;
   font-family: "roboto", sans-serif;
@@ -13,6 +16,7 @@ body {
   font-size: 20px;
   line-height: 29px;
   color: #30444e;
+  height: 100%;
 }
 
 .container {
@@ -77,11 +81,22 @@ body {
 
 .heroo {
   background-color: #f6f6f6;
-  margin: 189px;
+  margin-bottom: 116px;
 }
 
 .hero-img {
   margin-right: 91px;
+  padding-bottom: 72px;
+}
+
+/* Main */
+
+.main-content {
+  flex-grow: 1;
+}
+
+.hero {
+  margin-bottom: 163px;
 }
 
 .hero-container {
@@ -90,20 +105,49 @@ body {
 }
 
 .hero-content {
+  padding-top: 57px;
 }
 
+/* Footer */
+
 .hero-header {
+  width: 545px;
+  height: 192px;
+  font-family: "roboto", sans-serif;
   font-weight: 700;
   font-size: 48px;
   line-height: 64px;
+  margin-bottom: 24px;
 }
 .hero-content-highlite {
   color: #ee4248;
 }
 
+.herro-header {
+  margin: 0;
+  width: 454px;
+  height: 86px;
+  font-family: "roboto", sans-serif;
+  font-weight: 500;
+  line-height: 43px;
+  font-size: 32px;
+}
+
 .hero-text {
+  width: 520px;
+  font-family: "roboto", sans-serif;
+  font-weight: 400;
   font-size: 20px;
   line-height: 28px;
+  margin-bottom: 24px;
+}
+
+.hero-ttext {
+  width: 520px;
+  font-family: "roboto", sans-serif;
+  font-weight: 500;
+  line-height: 27px;
+  font-size: 18px;
 }
 
 .main-button {
@@ -114,8 +158,21 @@ body {
   border-radius: 4px;
 }
 
+.herro-img {
+  margin-top: 110px;
+}
+
 .service {
   margin: 0;
+  width: 288px;
+  height: 43px;
+  font-family: "roboto", sans-serif;
+  font-weight: 500;
+  line-height: 43px;
+  font-size: 32px;
+  padding-bottom: 47px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .frame {
@@ -128,13 +185,24 @@ body {
   margin-bottom: 17px;
 }
 
+.icons {
+  margin-bottom: 17px;
+}
+
 .our-product {
+  color: #ee4248;
   margin: 0;
   margin-bottom: 15px;
 }
 
 .our-text {
+  width: 319px;
+  height: 108px;
   margin-bottom: 15px;
+  font-family: "roboto", sans-serif;
+  font-weight: 400;
+  line-height: 27px;
+  font-size: 18px;
 }
 
 .produc {
@@ -143,12 +211,19 @@ body {
 }
 
 .our-produc {
+  color: #ee4248;
   margin: 0;
   margin-bottom: 15px;
 }
 
 .our-textt {
+  width: 329px;
+  height: 108px;
   margin-bottom: 15px;
+  font-family: "roboto", sans-serif;
+  font-weight: 400;
+  line-height: 27px;
+  font-size: 18px;
 }
 
 .produt {
@@ -156,20 +231,50 @@ body {
 }
 
 .our-produt {
+  color: #ee4248;
   margin: 0;
   margin-bottom: 15px;
 }
 
 .our-texxt {
+  width: 329px;
+  height: 108px;
   margin-bottom: 15px;
+  font-family: "roboto", sans-serif;
+  font-weight: 400;
+  line-height: 27px;
+  font-size: 18px;
 }
 
 .ruko {
-  margin-bottom: 88px;
+  width: 317px;
+  height: 54px;
+  margin-bottom: 15px;
+  font-family: "roboto", sans-serif;
+  font-weight: 300;
+  line-height: 27px;
+  font-size: 18px;
+  margin-bottom: 24px;
 }
 
 .samara {
   margin: 0;
+  width: 259px;
+  height: 21px;
+  font-family: "roboto", sans-serif;
+  font-weight: 500;
+  line-height: 21px;
+  font-size: 18px;
+}
+
+.samaraa {
+  margin-top: 40px;
+  width: 85px;
+  height: 28px;
+  font-family: "roboto", sans-serif;
+  font-weight: 500;
+  line-height: 28px;
+  font-size: 24px;
 }
 
 .framee {
@@ -178,7 +283,7 @@ body {
 }
 
 .our {
-  margin: 138px;
+  margin-bottom: 138px;
 }
 
 .footer {
@@ -200,7 +305,10 @@ body {
 }
 
 .rukoo {
-  margin: 0;
   width: 269px;
   height: 81px;
+  font-family: "roboto", sans-serif;
+  font-weight: 300;
+  line-height: 27px;
+  font-size: 18px;
 }
